@@ -7,9 +7,9 @@ var About=require('About');
 var Examples=require('Examples');
 
 //Load Foundation
-require('style!css!foundation-sites/dist/foundation.min.css')
+require('style!css!foundation-sites/dist/css/foundation.min.css')
 //Load Custom Style
-require('style!css!applicationStyles')
+require('style!css!sass!applicationStyles')
 $(document).foundation();
 
 ReactDOM.render(
